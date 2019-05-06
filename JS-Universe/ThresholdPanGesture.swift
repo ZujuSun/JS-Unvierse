@@ -1,6 +1,6 @@
 //
-//  ViewControllerExtension.swift
-//  JSUniverse
+//  ThresholdPanGesture.swift
+//  JS-Universe
 //
 //  Created by zuju sun on 2019-05-05.
 //  Copyright © 2019 zuju sun. All rights reserved.
@@ -9,8 +9,6 @@
 import UIKit.UIGestureRecognizerSubclass
 
 /**
- A custom `UIPanGestureRecognizer` to track when a translation threshold has been exceeded
- and panning should begin.
  
  - Tag: ThresholdPanGesture
  */

@@ -1,6 +1,6 @@
 //
-//  ViewControllerExtension.swift
-//  JSUniverse
+//  ViewController+ARSCNViewDelegate.swift
+//  JS-Universe
 //
 //  Created by zuju sun on 2019-05-05.
 //  Copyright © 2019 zuju sun. All rights reserved.
@@ -9,8 +9,6 @@
 import ARKit
 
 extension ViewController: ARSCNViewDelegate, ARSessionDelegate {
-    
-    // MARK: - ARSCNViewDelegate
     
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
         DispatchQueue.main.async {

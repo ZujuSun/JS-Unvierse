@@ -1,6 +1,6 @@
 //
-//  ViewControllerExtension.swift
-//  JSUniverse
+//  ViewController.swift
+//  JS-Universe
 //
 //  Created by zuju sun on 2019-05-05.
 //  Copyright © 2019 zuju sun. All rights reserved.
@@ -66,9 +66,6 @@ class ViewController: UIViewController{
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
-        
-        /// debug options
-        //sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin,ARSCNDebugOptions.showFeaturePoints];
         
         setupCamera()
         sceneView.scene.rootNode.addChildNode(focusSquare)
